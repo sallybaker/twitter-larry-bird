@@ -1,0 +1,91 @@
+html {
+  --cyan: #00acee;
+  --canvas: white;
+}
+.larry {
+  position: relative;
+  margin: auto auto;
+  padding: 20px;
+  width: 400px;
+  height: 400px; 
+}
+.background {
+  background: var(--canvas);
+}
+.foreground {
+  background: var(--cyan);
+}
+.circle-big {
+  position: absolute;
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+}
+.circle-bigish {
+  position: absolute;
+  border-radius: 100%;
+  height: 320px;
+  width: 320px;
+}
+.body-neg {
+  left: -75px;
+  top: 20px;
+}
+.body-neg2 {
+  left: 117px;
+  top: -117px;
+}
+.head {
+  left: 234px;
+  top: 90px;
+}
+.circle-medium {
+  position: absolute;
+  border-radius: 100%;
+  height: 133.5px;
+  width: 133.5px;
+}
+.wing1 {
+  left:120px;
+  top: 170px;
+}
+.wing1-neg {
+  left: 80px; 
+  top: 140px;
+}
+.wing2 {
+  left:115px;
+  top: 135px;
+}
+.wing2-neg {
+  left: 90px;
+  top: 80px;
+}
+.wing3 {
+  left:110px;
+  top: 85px;
+}
+.wing3-filler {
+  left: 160px;
+  top: 65px;
+}
+.wing3-neg {
+  left: 50px;
+  top: -175px;
+}
+.beak-bottom {
+  left:270px;
+  top:40px;
+}
+.beak-bottom-neg {
+  left:150px;
+  top:-200px;
+}
+.beak-top {
+  left: 270px;
+  top: 20px;
+}
+.beak-top-neg {
+  left:150px;
+  top:-220px;
+}
